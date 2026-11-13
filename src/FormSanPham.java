@@ -14,7 +14,7 @@ public class FormSanPham extends javax.swing.JFrame {
     public FormSanPham() {
         setTitle("Quản Lý Sản Phẩm");
         setSize(800, 600);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(new java.awt.BorderLayout(10, 10));
 
         // 1. Panel Nhập Liệu

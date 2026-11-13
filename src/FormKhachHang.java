@@ -13,7 +13,7 @@ public class FormKhachHang extends javax.swing.JFrame {
     public FormKhachHang() {
         setTitle("Quản Lý Khách Hàng");
         setSize(900, 600);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLayout(new java.awt.BorderLayout(10, 10));
 
         // 1. Panel Nhập Liệu
